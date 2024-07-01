@@ -7,7 +7,7 @@
     <img src="https://img.shields.io/badge/TwinCAT-3.1.4024.55-blue" alt="TwinCAT 3.1.4024.55"></a>
   <a href="https://github.com/Dalageo/TwinCAT-VirtualTram/blob/main/LICENSE" target="_blank">
     <img src="https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey" alt="License: CC BY-NC-SA 4.0"></a>
-  <img src="https://img.shields.io/github/stars/Dalageo/TwinCat-VirtualTram?style=social" alt="GitHub stars">
+  <img src="https://img.shields.io/github/stars/Dalageo/TwinCAT-VirtualTram?style=social" alt="GitHub stars">
 </div>
 
 # Designing and Simulating an Automated Tram Control System Using TwinCAT PLC Programming
