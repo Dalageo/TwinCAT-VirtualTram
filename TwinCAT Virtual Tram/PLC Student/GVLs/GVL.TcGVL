@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
+  <GVL Name="GVL" Id="{fe4797b9-decd-4812-88d7-4c6571c253c9}">
+    <Declaration><![CDATA[{attribute 'qualified_only'}
+VAR_GLOBAL
+	// Input to PLC from process 
+	ixSensor1		AT %I*: BOOL;		(* Sensor at First Station  *)
+	ixSensor2		AT %I*: BOOL;		(* Sensor at Second Station *)
+	
+	qxButtRight		AT %Q*: BOOL;		(* Button for moving the tram Right *)
+	qxButtLeft		AT %Q*: BOOL;		(* Button for moving the tram Left *)
+	
+	qxButtManual	AT %Q*: BOOL;		(* Button for Manual Mode *)
+	qxButtAuto		AT %Q*: BOOL;		(* Button for Auto Mode *)
+	
+	qxButtEmerg     AT %Q*: BOOL;		(* Button for Emergency Stop *)
+	
+	mxManualRight   AT %Q*: BOOL;
+	mxManualLeft    AT %Q*: BOOL;
+	
+	mxAutoRight     AT %Q*: BOOL;
+	mxAutoLeft      AT %Q*: BOOL;
+	
+	mxEmergRight    AT %Q*: BOOL;
+	mxEmergLeft     AT %Q*: BOOL;
+	
+	mxEmergManLeft  AT %Q*: BOOL;
+	
+END_VAR]]></Declaration>
+  </GVL>
+</TcPlcObject>

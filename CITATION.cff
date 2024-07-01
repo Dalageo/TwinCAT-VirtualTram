@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If this project was helpful, please cite it as below."
+title: "TwinCAT-VirtualTram"
+authors:
+  - family-names: "Dalageorgos"
+    given-names: "Konstantinos"
+version: "1.0.0" 
+date-released: "2024-07-01"
+repository-code: "https://github.com/Dalageo/TwinCAT-VirtualTram"
+license: "CC-BY-NC-SA-4.0"

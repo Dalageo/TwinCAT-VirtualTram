@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
+  <POU Name="TextDisplay" Id="{085e54ff-aae8-4497-9340-166d4a684833}" SpecialFunc="None">
+    <Declaration><![CDATA[PROGRAM TextDisplay
+VAR
+	TextDis: STRING;
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[IF GVL.ixSensor1 THEN
+	TextDis := 'Home';
+ELSIF
+	GVL.ixSensor2 THEN
+	TextDis := 'Station 1';
+ELSIF GVL.qxButtEmerg AND NOT GVL.qxButtRight AND NOT GVL.qxButtLeft THEN
+	TextDis := 'Emergency Stop';
+ELSE
+	TextDis := 'Moving';
+END_IF
+]]></ST>
+    </Implementation>
+    <LineIds Name="TextDisplay">
+      <LineId Id="5" Count="1" />
+      <LineId Id="11" Count="0" />
+      <LineId Id="13" Count="2" />
+      <LineId Id="18" Count="2" />
+      <LineId Id="7" Count="0" />
+      <LineId Id="10" Count="0" />
+    </LineIds>
+  </POU>
+</TcPlcObject>
