@@ -10,7 +10,7 @@
   <img src="https://img.shields.io/github/stars/Dalageo/TwinCAT-VirtualTram?style=social" alt="GitHub stars">
 </div>
 
-# Designing and Simulating an Automated Tram Control System Using TwinCAT PLC Programming
+# Designing and Simulating an Automated Tram Control System Using TwinCAT PLC Programming 🚝
 
 This repository contains a simulation project for an Automated Tram System, developed within the <a href="https://www.beckhoff.com/en-en/products/automation/twincat/"> TwinCAT </a> environment as part of a master's course assignment <a href="https://www.hv.se/en/">University West</a>. The assignment involves developing a Human-Machine Interface (HMI) and a virtual process with visualization to control a tram navigating between two stations along a predefined track.
 The designed system allows for both manual and automatic operation of the tram, ensuring it can handle passenger boarding and alighting with safety and efficiency. It includes the following functionalities:
